@@ -10,4 +10,11 @@ About the Grove:
 It uses I2C bus to connect to the rpipicow. You need 4 Pins: 1 powerline (5V or 3V3), 1 ground, 1 SDA, 1 SCL. The SDA and SCL connect on bus 0 on the pico - GPIO 0 and GPIO 1. You don't need to use bus 0 nor GPIO pins 0 and 1, it's just what I used. You can check the Pico pinout to see which bus is connected to which pin. 
 
 
+The script is based on MicroPython. 
+- Install MicroPython to your rpipicow either manually or through Thonny.
+- Open the script in your favorite IDE that can connect to the rpipicow.
+- Run a couple of tests to make sure everything works. (I would recommend starts the script while the sensor is dry, and then dip it in water)
+- Adjust the script to your likings (eg, adding a MQTT client)
+- rename the script to main.py and copy paste to the Pico (make sure you copy it over in execute mode and NOT bootloader mode).  
+
 
