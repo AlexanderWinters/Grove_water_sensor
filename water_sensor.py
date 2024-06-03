@@ -76,5 +76,5 @@ while True:
     
     print("water level = ", trig_section * 5, "% ")
     print(" ")
-    print("_ _ _ _ _ _ _ _ _ _zx")
+    print("_ _ _ _ _ _ _ _ _ _")
     time.sleep(1)
